@@ -72,17 +72,14 @@ span{
 
 .card{
     display: inline-block;
-    width: 28%;
+    width: 300px;
+    height: 200px;
     padding: 15px;
-    margin: 1%;
+    margin: 2%;
     border: 1px solid #4e3c69;
     border-radius: 10px;
-    cursor: pointer;
     background: #0c1d30;
-}
-
-.card:hover .card-txt{
-    display: none;
+    overflow: auto;
 }
 
 li{
